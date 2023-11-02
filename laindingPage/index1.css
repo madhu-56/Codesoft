@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    /* background-color: red; */
+}
+header{
+    width:100%;
+    height:100vh;
+    background-image: url(pizza.jpg);
+    background-size: 50% 90%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    position: relative;
+    
+}
+nav{
+    width:100%;
+    height:20%;
+    padding: 0px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 0px 5px grey;
+}
+.logo{
+    font-weight:bold;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.logo span{
+    color:brown
+}
+.menu a{
+    text-decoration: none;
+    color:black;
+    padding:10px 20px;
+}
+.menu a:last-child{
+    background: brown;
+    color:white;
+    border-radius: 8px;
+}
+.h-text{
+    position: absolute;
+    top:30%;
+    left: 5%;
+    padding: 15px;
+}
+.h-text p{
+    color:#262626;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.h-text h1{
+    font-size:4em;
+    line-height: 1.5em;
+}
+.h-text h1 span{
+    color:brown;
+}
+.h-text h2{
+    font-size: 4em;
+    margin-bottom: 0.5em;
+}
+#order{
+text-decoration: none;
+color:white;
+background: brown;
+border-radius: 8px;
+padding:10px 20px;
+}
+#dis{
+    text-decoration: none;
+    color:white;
+    background:black;
+    border-radius: 8px;
+    padding:10px 20px;  
+}
+#pizza{
+    position: absolute;
+    bottom:15%;
+    left:5%;
+}
+#pizza img{
+    transition: 0.4s ease;
+    height: 100px;
+    width: 100px;
+}
+#pizza img:hover{
+    transform: translateY(-20px);
+}
+
